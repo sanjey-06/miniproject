@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	/* background-image: linear-gradient(45deg, #7175da, #9790F2); */
+	background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fyellowwellies.org%2Fwp-content%2Fuploads%2F2014%2F11%2F180901788-1.jpg&f=1&nofb=1&ipt=b45a112a1965ebd2b68c72d1e394ff67f8a071bdbb1c3ce0f18ae3656ae73344&ipo=images");
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    background-attachment: fixed;
+	font-family: 'Muli', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+}
+
+.scheme-container {
+	
+}
+
+.scheme {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px #d8f3dc;
+	display: flex;
+	max-width: 100%;
+	margin: 20px;
+	overflow: hidden;
+	width: 700px;
+}
+
+.scheme h4 {
+	opacity: 0.6;
+	letter-spacing: 1px;
+	text-transform:capitalize;
+}
+
+.scheme h5 {
+	opacity: 0.6;
+    margin: 0px;
+	letter-spacing: 1px;
+	text-transform: lowercase;
+}
+
+.scheme h2 {
+	letter-spacing: 1px;
+	margin: 10px 0;
+}
+
+.scheme-preview {
+	background-color: #00634b;
+	color: #fff;
+	padding: 30px;
+	max-width: 250px;
+}
+
+.scheme-preview a {
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	opacity: 0.6;
+	margin-top: 45px;
+	text-decoration: none;
+}
+
+.scheme-info {
+	padding: 30px;
+	position: relative;
+	width: 100%;
+}
+/* 
+
+@media screen and (max-width: 480px) {
+
+	.social-panel-container.visible {
+		transform: translateX(0px);
+	}
+	
+	.floating-btn {
+		right: 10px;
+	}
+}
